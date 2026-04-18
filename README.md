@@ -1,4 +1,12 @@
-# Summary --------
+# Summary of Notes --------
+
+<h2><a href="https://www.youtube.com/playlist?list=PLKnIA16_Rmva_oZ9F4ayUu9qcWgF7Fyc0"> Campusx MCP Playlist </a></h2>
+
+<img src="image_3_Application.png" alt="image-3.png" width="600"/>
+
+
+<img 
+--------
 
 ## MCP Primitives :-
 
