@@ -599,9 +599,10 @@ to Access the MCP server
 - Own MCP Server (Remote) -> Deploy it on Cloud and then connect with Ready Made Clients like Claude or Own Local/Remote MCP Clients using URL.
 
 
-![image.png](attachment:image.png)
+<img src="image_1_Chart.png" alt="image-1.png" width="600"/>
 
-![image-2.png](attachment:image-2.png)
+<img src="image_2_Connection.png" alt="image-2.png" width="600"/>
+
 
 -----
 
@@ -612,7 +613,7 @@ MCP Sever → Has all the Tool/Resource/Prompt Functions, and it call these func
 MCP Client → It is the one which directly talks with the LLM and it has the MCP Client code in it to call the tools/resources/prompts in the MCP server.
 
 
-![image-3.png](attachment:image-3.png)
+<img src="image_3_Architecture.png" alt="image-3.png" width="600"/>
 
 #### 1) Frontend (UI)
 
