@@ -5,7 +5,6 @@
 <img src="image_3_Application.png" alt="image-3.png" width="600"/>
 
 
-<img 
 --------
 
 ## MCP Primitives :-
