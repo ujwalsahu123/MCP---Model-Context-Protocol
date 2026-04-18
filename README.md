@@ -613,7 +613,7 @@ MCP Sever → Has all the Tool/Resource/Prompt Functions, and it call these func
 MCP Client → It is the one which directly talks with the LLM and it has the MCP Client code in it to call the tools/resources/prompts in the MCP server.
 
 
-<img src="image_3_Architecture.png" alt="image-3.png" width="600"/>
+<img src="image_3_Application.png" alt="image-3.png" width="600"/>
 
 #### 1) Frontend (UI)
 
