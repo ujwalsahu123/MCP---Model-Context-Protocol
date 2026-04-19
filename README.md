@@ -557,7 +557,10 @@ or
 OR
 Deployment
 
-Before deployment test the MCP server locally by uisng ---
+
+7) So to use the FastMCP cloud for deployment we have to use github to push our code and then connect that github repo with FastMCP cloud and then deploy it on cloud.
+
+Before deployment test the MCP server locally (using mcp inspector) by uisng  ---
 if __name__ == "__main__":
     mcp.run()
 
@@ -566,8 +569,7 @@ if __name__ == "__main__":
     mcp.run(transport="http", host="0.0.0.0", port=8000)
     # mcp.run()
 
-7) So to use the FastMCP cloud for deployment we have to use github to push our code and then connect that github repo with FastMCP cloud and then deploy it on cloud.
-
+also make .gitignore , requirements.txt , etc files before deployment
 
 (so in your project you will have libraries and stuff and when u push it on the FastMCP server then you need to have those libraries on that server and not only libraries
 but etc stuff also . like pip install -r requirements.txt etc....  so all that part is done in the ===> Project.toml file)
