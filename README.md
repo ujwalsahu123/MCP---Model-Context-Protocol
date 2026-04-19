@@ -449,7 +449,7 @@ SETUP -
 
 uv init .   # to make the Project a uv project
 
-uv add langchain langchain-openai langchain-mcp-adapters python-dotenv streamlit .....etc   # to install the required libraries
+uv add langchain langchain-openai langchain-mcp-adapters python-dotenv streamlit .....etc   # to install the required libraries (no need to install fastmcp library for the client side)
 
 4) Now Write the Client code in main.py & etc..  files
 - MCP servers Mention
