@@ -572,7 +572,7 @@ if __name__ == "__main__":
 also make .gitignore , requirements.txt , etc files before deployment
 
 (so in your project you will have libraries and stuff and when u push it on the FastMCP server then you need to have those libraries on that server and not only libraries
-but etc stuff also . like pip install -r requirements.txt etc....  so all that part is done in the ===> Project.toml file)
+but etc stuff also . like pip install -r requirements.txt etc....  so all that part is done in the ===> Project.toml file)  (and while deploying on FastMCP cloud you have to mention the path of the requirements.txt file or project.toml file so that it can install all the required libraries and stuff on the server before running the code)
 
 
 # Create a new repo on Github without readme.md
@@ -588,7 +588,8 @@ git remote add origin https://github.com/ujwalsahu123/test-remote-mcp-server.git
 git push origin main
 
 
-Go to FastMCP cloud website > Deploy from your code > connect ur github account with it (first time) > select the Remote server repo > Deploy > Set Server name > Set Entry point name (the code file name in which the main code is there) (main.py) > Set Authenication (off for now) > Deploy  
+Go to FastMCP cloud website > Deploy from your code > connect ur github account with it (first time) > select the Remote server repo > Deploy > Set Server name > Set Entry point name (the code file name in which the main code is there) (main.py) > Set Authenication (off for now) > Set the Requirements.txt file path or projec.toml file path > Deploy  
+
 
 
 Copy the Remote Server URL
