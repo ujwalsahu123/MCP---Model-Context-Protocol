@@ -449,7 +449,10 @@ SETUP -
 
 uv init .   # to make the Project a uv project
 
-uv add langchain langchain-openai langchain-mcp-adapters python-dotenv streamlit .....etc   # to install the required libraries (no need to install fastmcp library for the client side)
+uv add langchain langchain-openai langchain-mcp-adapters python-dotenv ...........etc....(streamlit, etc)....   # to install the required libraries (no need to install fastmcp library for the client side)
+
+Get the MCP Server API key from the FastMCP cloud website > account > API key.
+make .env file and put the API key.
 
 4) Now Write the Client code in main.py & etc..  files
 - MCP servers Mention
