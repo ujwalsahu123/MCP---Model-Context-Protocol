@@ -521,7 +521,7 @@ We can Also Deploy the Local Own MCP server on the Cloud using FastMCP cloud or 
 
 ```
 SETUP -
-1) install 
+1) pip install uv
 
 2) Create a new Project folder and open it in vscode
 
