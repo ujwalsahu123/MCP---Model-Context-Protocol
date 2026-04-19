@@ -555,7 +555,16 @@ or
 
 
 OR
-Deployment  
+Deployment
+
+Before deployment test the MCP server locally by uisng ---
+if __name__ == "__main__":
+    mcp.run()
+
+and at the time of deployment change the code to ---
+if __name__ == "__main__":
+    mcp.run(transport="http", host="0.0.0.0", port=8000)
+    # mcp.run()
 
 7) So to use the FastMCP cloud for deployment we have to use github to push our code and then connect that github repo with FastMCP cloud and then deploy it on cloud.
 
