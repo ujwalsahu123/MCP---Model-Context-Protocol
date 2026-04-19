@@ -560,6 +560,10 @@ Deployment
 7) So to use the FastMCP cloud for deployment we have to use github to push our code and then connect that github repo with FastMCP cloud and then deploy it on cloud.
 
 
+(so in your project you will have libraries and stuff and when u push it on the FastMCP server then you need to have those libraries on that server and not only libraries
+but etc stuff also . like pip install -r requirements.txt etc....  so all that part is done in the ===> Project.toml file)
+
+
 # Create a new repo on Github without readme.md
 
 git init
