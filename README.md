@@ -606,6 +606,8 @@ to Access the MCP server
 
 # MCP System Architecture :-
 
+Start by making a MCP Server and then Make MCP Client
+
 ### MCP clinet
 
 - Ready Made MCP Clients (Local) (Claude, etc)
