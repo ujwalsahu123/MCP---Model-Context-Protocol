@@ -1,3 +1,7 @@
 [submodule "2_Mcp_Server_Remote"]
 	path = 2_Mcp_Server_Remote
 	url = https://github.com/ujwalsahu123/test-remote-mcp-server.git
+
+[submodule "4_Project_StarGuide_MCP_AI_tool"]
+	path = 4_Project_StarGuide_MCP_AI_tool
+	url = https://github.com/ujwalsahu123/MCP--Project_Stargazing_AI_Guide.git
