@@ -449,6 +449,8 @@ SETUP -
 
 uv init .   # to make the Project a uv project
 
+Do .venv/Scripts/activate inside that folder so that u download ur packages in that virtual env only. 
+
 uv add langchain langchain-openai langchain-mcp-adapters python-dotenv ...........etc....(streamlit, etc)....   # to install the required libraries (no need to install fastmcp library for the client side)
 
 Get the MCP Server API key from the FastMCP cloud website > account > API key.
@@ -462,6 +464,8 @@ make .env file and put the API key.
 - give the tool response back to the LLM and get the final output from it.
 
 5) Run the Client:
+
+(you can do .venv/Scripts/activate inside that folder so that u are in a virtual env before running the code)
 
 uv run main.py
 
