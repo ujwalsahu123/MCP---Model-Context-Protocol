@@ -451,25 +451,34 @@ uv init .   # to make the Project a uv project
 
 Do .venv/Scripts/activate inside that folder so that u download ur packages in that virtual env only. 
 
-uv add langchain langchain-openai langchain-mcp-adapters python-dotenv ...........etc....(streamlit, etc)....   # to install the required libraries (no need to install fastmcp library for the client side)
+uv add langchain langchain-openai langchain-mcp-adapters python-dotenv ...........etc....streamlit, fastapi... etc...   # to install the required libraries (no need to install fastmcp library for the client side)
 
 Get the MCP Server API key from the FastMCP cloud website > account > API key.
 make .env file and put the API key.
 
-4) Now Write the Client code in main.py & etc..  files
+4) Now Write the Client code in Client_Mcp.py & etc..  files
 - MCP servers Mention
 - LLM import and bind tools
 - prompt the LLM and get response with tool call info
 - call the tools by ourself using the tool call info from the response
 - give the tool response back to the LLM and get the final output from it.
 
+- Run the Client.py file to see if all functions are working, write test code to call the functions.
+
+- Run the Backend Code in the Main.py to write the ENDPOINTS and call Clinet_Mcp.py functions.
+
 5) Run the Client:
 
 (you can do .venv/Scripts/activate inside that folder so that u are in a virtual env before running the code)
 
-uv run main.py
+`uv run main.py`
 
-or 
+or
+
+`uv run python main.py`
+
+- if u use fastapi then see the /docs to test if everything is working.
+ 
 
 6) Deploy it on Cloud and then call the endpoints from Frontend side to use the Client MCP server functionalities.
 - Frontend Hits the endpoint with user promt, etc
@@ -550,7 +559,11 @@ uv run fastmcp version    # to check the library version
 
 6) Run the server 
 
-`uv run main.py`  
+`uv run main.py`
+
+or
+
+`uv run python main.py`
 
 or  
 
